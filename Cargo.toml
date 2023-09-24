@@ -1,0 +1,15 @@
+[package]
+edition = "2021"
+name = "boot-dat-gen-ui"
+version = "0.1.0"
+
+[dependencies]
+base64 = "0.21.4"
+gloo = "0.10"
+js-sys = "0.3"
+tx-custom-boot = "0.3.0"
+yew = {version = "0.20.0", features = ["csr"]}
+
+[dependencies.web-sys]
+features = ["File", "DragEvent", "DataTransfer"]
+version = "0.3"
